@@ -8,28 +8,6 @@ import Contact from "./components/contact/Contact";
 import Navigation from "./components/navigation/Navigation";
 
 
-
-
-// class App extends Component {
-//   render() {
-//     return (
-//       <div>
-//         {/* render the Navigation component */}
-//         <Navigation />
-//         <Route
-//           exact
-//           path="/"
-//           render={(props) => <Welcome {...props} name="eric" />}
-//         />
-//         <Route path="/clock" component={Clock} />
-//         <Route path="/contact" component={Contact} />
-//       </div>
-//     );
-//   }
-// }
-// export default App;
-
-
 function App() {
   return (
     <div className="App">
@@ -60,7 +38,7 @@ function App() {
         />
 
         <Route component={Error} />
-        
+
       </Switch>
 
 
