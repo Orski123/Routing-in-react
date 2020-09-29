@@ -8,7 +8,6 @@ import Contact from "./components/contact/Contact";
 import Navigation from "./components/navigation/Navigation";
 import Jeopardy from './components/jeopardy/Jeopardy';
 
-
 function App() {
   return (
     <div className="App">
