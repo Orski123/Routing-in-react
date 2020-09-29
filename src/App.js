@@ -38,11 +38,14 @@ function App() {
           component={Contact}
         />
 
+<<<<<<< HEAD
       <Route
           path="/jeopardy"
           component={Jeopardy}
         />
 
+=======
+>>>>>>> 991ef9c3728202c75723b88fbffaa2ff2dd7357e
         <Route component={Error} />
 
       </Switch>
