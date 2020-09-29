@@ -2,11 +2,11 @@ import React from "react";
 function Welcome (props) {
     return (
         <div className="Welcome ">
-            Welcome, {props.match.params.name}
+                <h1> Welcome, {props.match.params.orpadata}</h1>
         </div>
         
     )
-  
+    
 }
 
 export default Welcome;
