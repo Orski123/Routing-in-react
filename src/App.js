@@ -11,7 +11,6 @@ import Jeopardy from './components/jeopardy/Jeopardy';
 function App() {
   return (
     <div className="App">
-
       <Navigation />
 
       <Switch>
