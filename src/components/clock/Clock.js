@@ -12,7 +12,6 @@ componentDidMount () {
     this.timerId = setInterval(()=> this.tick(), 1000)
 }
 
-
 componentWillUnmount (){
     this.timerId = clearInterval(this.timerId)
 }
